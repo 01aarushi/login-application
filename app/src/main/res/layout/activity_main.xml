@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/storeback"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="264dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/registernow" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#fffcff"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="70dp"
+        android:hint="Enter your name" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:background="#fffcff"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="70dp"
+        android:hint="Enter your age" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:background="#fffcff"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="70dp"
+        android:hint="Enter your Email" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:background="#fffcff"
+        android:inputType="textPassword"
+        android:layout_marginLeft="70dp"
+        android:hint="Enter your Password" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        android:text="Register me" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Login here"
+        android:layout_marginLeft="90dp"
+        android:textColor="#0F0A0A"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:id="@+id/textView"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+
+</LinearLayout>

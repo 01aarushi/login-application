@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/storeback"
+    tools:context=".otpver">
+
+    <com.hbb20.CountryCodePicker
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/ccp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:textColor="#75B4E6"
+        android:background="#fff"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number"
+        android:id="@+id/phone"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#030202"
+        android:background="#fff"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:inputType="number"
+        android:visibility="invisible"
+        android:id="@+id/codeEnter"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#090000"
+        android:background="#fff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="NEXT"
+        android:id="@+id/nextBtn"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#0A0101"
+        android:background="#2196F3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="RESEND"
+        android:visibility="invisible"
+        android:id="@+id/resend"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#0A0101"
+        android:background="#2196F3"/>
+
+</LinearLayout>
